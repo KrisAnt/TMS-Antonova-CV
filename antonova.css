@@ -12,7 +12,7 @@
                 color: #eae8eb;
                 background-color: #2b7896;
                 width: 200px;
-                height: 800px;
+                height: 850px;
                 overflow: auto;
                 float: left;
                 word-wrap: break-word;
@@ -38,19 +38,23 @@
                 padding-left: 0px;
             }
             
+            a {
+                color:rgb(224, 229, 235); 
+
+            }
             hr {
                 border: none;
                 background-color: rgb(114, 134, 153);
                 color: rgb(224, 229, 235);
                 height: 2px;
-                margin-top: 20px;
+                margin-top: 0px;
             }
             
             .right-block {
                 color: #2b7896;
                 background-color: #eae8eb;
                 width: calc( 100vw - 280px);
-                height: 800px;
+                height: 850px;
                 word-wrap: break-word;
                 float: left;
                 padding: 0 20px;
@@ -96,8 +100,9 @@
             
             .experience td {
                 text-align: left;
-                padding-right: 200px;
+                width: 350px;
                 vertical-align: text-top;
+                padding-bottom: 25px;
             }
             
             .experience p {
@@ -108,3 +113,79 @@
             .experience h1 {
                 margin-top: 20px;
             }
+
+            .professional {
+                width: calc(50% - 100px);
+                float: left;
+                padding-right: 100px;;
+            }
+
+            .personal {
+                width: calc(50% - 100px);
+                float: right;
+                padding-right: 100px;
+            }
+
+            .professional p {
+                margin: 0px;
+            }
+
+            .container {
+                width: 100%;
+                height: 30px;
+                background-color: gray;
+                margin: 5px 0;
+            }
+            
+            .skills-bar {
+                text-align: right;
+                padding-top: 0px;
+                padding-bottom: 10px;
+                color: white;
+            }
+
+            .html {
+                width: 70%;
+                background-color: #8bc1c9;
+            }
+
+            .css {
+                width: 60%;
+                background-color: #4b98a3;
+            }
+
+            .c {
+                width: 60%;
+                background-color: #166c78; 
+            }
+
+            .agile {
+                width: 90%;
+                background-color:#134a52;
+            }
+
+            .personal p {
+                margin: 0px;
+            }
+            
+            .creavity {
+                width: 90%;
+                background-color: #8bc1c9;
+            }
+
+            .com {
+                width: 80%;
+                background-color: #4b98a3;
+            }
+
+            .teamwork {
+                width: 70%;
+                background-color: #166c78;
+            }
+            
+            .hardworking {
+                width: 80%;
+                background-color:#134a52;
+            }
+
+        
